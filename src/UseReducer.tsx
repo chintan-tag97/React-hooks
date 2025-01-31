@@ -12,7 +12,6 @@ function UseReducer() {
             default: return state  
         }
     }
-
     const [state, dispatch] = useReducer(reducer, {count:0})
   return (
     <div className="App">

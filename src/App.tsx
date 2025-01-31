@@ -6,6 +6,8 @@ import UseEffect from './UseEffect.tsx';
 import UseReducer from './UseReducer.tsx';
 import UseRef from './UseRef.tsx';
 import UseCallback from './UseCallback.tsx';
+import UseMemohooks from './UseMemohooks.tsx';
+import Example from './Example.tsx';
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       <UseReducer/>
       <UseRef/>
       <UseCallback/>
+      <UseMemohooks/>
+      <Example/>
+
     </div>
   );
 }

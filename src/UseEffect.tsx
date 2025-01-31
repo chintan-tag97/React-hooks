@@ -2,7 +2,8 @@ import React, {useState,useEffect} from 'react'
 
 function UseEffect() {
     const [count, setCount] = useState(0)
-    useEffect(() => { console.log('Count has changed!')}, [count])
+    useEffect(() =>
+       { console.log('Count has changed!')}, [count])
   return (
     <div className="App">
         <h1>useEffect</h1>
