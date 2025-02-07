@@ -8,18 +8,20 @@ import UseRef from './UseRef.tsx';
 import UseCallback from './UseCallback.tsx';
 import UseMemohooks from './UseMemohooks.tsx';
 import Example from './Example.tsx';
+import Toastmess from './Toastmess.tsx';
 
 function App() {
   return (
     <div className="App">
-      <Hooks/>
+      {/* <Hooks/>
       <UseState/>
       <UseEffect/>
       <UseReducer/>
       <UseRef/>
       <UseCallback/>
       <UseMemohooks/>
-      <Example/>
+      <Example/> */}
+      <Toastmess/>
 
     </div>
   );
